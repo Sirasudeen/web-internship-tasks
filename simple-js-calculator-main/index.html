@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple Calculator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/calc.js" defer></script>
+  </head>
+  <body>
+    <div class="container-1">
+      <h1>SIMPLE CALCULATOR</h1>
+    </div>
+
+    <div class="container-2">
+      <div class="display result operand1">
+        <input type="text" id="display" readonly>
+    </div>
+    </div>
+    <div class="container-3"></div>
+    <div class="container-4">
+      <div class="buttons col">
+        <div class="input numbers col">
+          <div class="buttons row row1">
+            <button onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+          </div>
+          <div class="buttons row row2">
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+          </div>
+          <div class="buttons row row3">
+            <button onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+          </div>
+          <div class="buttons row row4">
+            <button onclick="appendToDisplay('/')">/</button> 
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="calculate()">=</button>
+          </div>
+          <div class="buttons row row5">
+            <button id="clear" onclick="clearDisplay()">C</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        
+    </footer>
+  </body>
+</html>

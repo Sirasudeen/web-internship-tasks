@@ -1,0 +1,137 @@
+body
+{
+  margin: 0%;
+  background-color: #212A3E ;
+}
+.container-1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #874C62;
+}
+.container-1
+{
+  color: #F2D388;
+  cursor: pointer;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+	margin-bottom: 30px;
+  width: 100%;
+	height: 100%;
+	padding: 50px;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg,  #6f02356b  30%, #820533 100%);
+}
+h1
+{
+  font-family: 'Alegreya Sans SC';
+	font-size: 80px;
+  font-weight: 520;
+}
+
+.container-2
+{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  background-color: #212A3E;
+}
+
+.display > input
+{
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 45rem;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  height: 3rem;
+}
+#operator
+{
+  height: 2rem;
+  width: 2rem;
+  background-color: #9BA4B5;  
+}
+.container-3
+{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #212A3E;
+  flex-direction: row;
+}
+.buttons > button
+{
+  padding: 15px 30px;
+  margin: 0.2rem;
+  font-size: 30px;
+  height: 6rem;
+  width: 6rem;
+  font-weight: 900;
+  color: rgb(45, 52, 45);
+  background-color: #f3ebebfd;
+  border: 2px solid ;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: 0.25s ease;
+
+
+  &--transparent {
+    color: #f3ebebfd;
+    background-color: transparent;
+  }
+}
+button:hover {
+  box-shadow: 0 6px 18px 0 rgba(#000, 0.1);
+  color: #f7f3f3fa;
+  border-color: transparent;
+  background-color: transparent;
+}
+.container-4
+{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  background-color: #212A3E;
+}
+.row
+{
+    display: flex;
+    justify-content: left;
+}
+#clear
+{
+  width: 25.2rem;
+  color: #f3ebebfd;
+    background-color: #e62f35;
+ border-color:#c7050b ;
+}
+#clear:hover
+{
+  box-shadow: 0 6px 18px 0 rgba(#000, 0.1);
+  color: #f7f3f3fa;
+  border-color: transparent;
+  background-color: #c7050b;
+  
+
+}
+footer
+{
+  background-color:#212A3E ;
+  height: 50px;
+}
